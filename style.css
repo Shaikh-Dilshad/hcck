@@ -1,0 +1,215 @@
+html, body {
+    height: 100%;
+    width: 100%;
+  }
+  body{
+    background: #292929;
+  }
+  #anime{
+  /*   float: left; */
+    color: #292929;
+    font-weight: bold;
+    font-size: 25px;
+    animation: anime 0.5s linear 0s  infinite;
+  }
+  @keyframes anime {
+      from {
+          opacity: 0;
+      }
+      to {
+          opacity: 1;
+      }
+  }
+  .typing{
+   font-family: 'VT323', monospace;
+    width: 20%;
+      color: #00ff00;
+      float: left;
+      font-weight:bold;
+      font-size: 22px;
+      overflow: hidden;
+      white-space: nowrap;
+      animation: typing 2s steps(2) 1s alternate;
+  }
+  @keyframes typing {
+      from {
+          width: 0%;
+      }
+      to {
+          width: 16%;
+      }
+  }
+  #anime1{
+  /*   float: left; */
+    color: #292929;
+    font-weight: bold;
+    font-size: 25px;
+    animation: anime1 0.5s linear 0s  infinite;
+  }
+  @keyframes anime1 {
+      from {
+          opacity: 0;
+      }
+      to {
+          opacity: 1;
+      }
+  }
+  #nello{
+    width:20%;
+    
+   font-family: 'VT323', monospace;
+  
+      color: #00ff00;
+      float: left;
+      font-weight:bold;
+      font-size: 22px;
+      overflow: hidden;
+      white-space: nowrap;
+      animation: nello 2s steps(4) 2s alternate;
+  }
+  @keyframes nello{
+      from {
+          width: 0%;
+      }
+      to {
+          width: 16%;
+      }
+  }
+  #nello1{
+    width:20%;
+  }
+  #anime2{
+  /*   float: left; */
+    color: #292929;
+    font-weight: bold;
+    font-size: 25px;
+    animation: anime1 0.5s linear 0s  infinite;
+  }
+  @keyframes anime1 {
+      from {
+          opacity: 0;
+      }
+      to {
+          opacity: 1;
+      }
+  }
+  #nello2{
+    width:20%;
+  }
+  #anime3{
+  /*   float: left; */
+    color: #292929;
+    font-weight: bold;
+    font-size: 25px;
+    animation: anime1 0.5s linear 0s  infinite;
+  }
+  @keyframes anime1 {
+      from {
+          opacity: 0;
+      }
+      to {
+          opacity: 1;
+      }
+  }
+  #nello3{
+    width:20%;
+  }
+  #anime4{
+  /*   float: left; */
+    color: #292929;
+    font-weight: bold;
+    font-size: 25px;
+    animation: anime1 0.5s linear 0s  infinite;
+  }
+  @keyframes anime1{
+      from {
+          opacity: 0;
+      }
+      to {
+          opacity: 1;
+      }
+  }
+  #text{
+    width:8%;
+  }
+  #anime5{
+  /*   float: left; */
+    color: #292929;
+    font-weight: bold;
+    font-size: 25px;
+    animation: anime1 0.5s linear 0s  infinite;
+  }
+  @keyframes anime1{
+      from {
+          opacity: 0;
+      }
+      to {
+          opacity: 1;
+      }
+  }
+  #typerr{
+    width:14%;
+  }
+  #anime0{
+  /*   float: left; */
+    color: #292929;
+    font-weight: bold;
+    font-size: 25px;
+    animation: anime1 0.5s linear 0s  infinite;
+  }
+  @keyframes anime1{
+      from {
+          opacity: 0;
+      }
+      to {
+          opacity: 1;
+      }
+  }
+  
+  #anim{
+  /*   float: left; */
+    color: #292929;
+    font-weight: bold;
+    font-size: 25px;
+    animation: anime1 0.5s linear 0s  infinite;
+  }
+  @keyframes anime1{
+      from {
+          opacity: 0;
+      }
+      to {
+          opacity: 1;
+      }
+  }
+  @media(min-width:800px) and (max-width:1024px){
+  #typer{
+    width:30%;
+  }
+  #text{
+    width:15%;
+  }
+  #platform{
+    width:25%;
+    
+  }
+  #nello,#nello1,#nello2,#nello3{
+       width:36%;
+    }
+  }
+  @media(min-width:320px) and (max-width:480px){
+  #typerr{
+    width:52%;
+  }  
+  .typing{
+      width: 65%;
+    }
+    #nello,#nello1,#nello2,#nello3{
+       width:80%;
+    }
+    #text{
+    width:30%;
+    
+  }
+  }
+  
+  
